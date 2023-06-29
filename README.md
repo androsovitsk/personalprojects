@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Personal projects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository is a collection of personal projects written in React/Typescript. It also contains a mini UI library (based on [MUI](https://mui.com) components) that is used across the different modules.
 
-## Available Scripts
+## Languages, frameworks and libraries used
 
-In the project directory, you can run:
+- [React](https://react.dev)
+- [Typescript](https://www.typescriptlang.org)
+- [Jest](https://jestjs.io)
+- [React Testing Library](https://testing-library.com)
+- [MUI](https://mui.com)
+- [Formik](https://formik.org) & [Yup](https://github.com/jquense/yup)
+- [React Router](https://reactrouter.com/en/main)
+- [React i18Next](https://react.i18next.com)
+- [Ramda](https://ramdajs.com)
+- [Wretch](https://elbywan.github.io/wretch/)
+- [Fetch-mock](https://www.wheresrhys.co.uk/fetch-mock/)
 
-### `npm start`
+## Weather project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The weather module is a relatively simple module using [OpenWeatherMap](https://openweathermap.org)'s Current Weather Data API. Besides searching for a specific location's weather information, it supports forecasts for the user's geolocation, has the ability to save locations by utilizing the browser's local storage, supports multiple languages and switching between temperature units instantly. In order to use it you must request an API key, which can be done on OpenWeatherMap's website.
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Request an API key from OpenWeatherMap
+2. Clone the repository
+3. Run `npm install` to install the dependencies
+4. Run `npm start` to start the development server
 
-### `npm run build`
+### Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+The application opens up a dialog to enter your API-key and choose a desired temperature unit and language. These settings can be changed later using the settings icon on the right side of the sidebar. It will ask for geolocation access in order to use the user's geolocation feature. You can search for cities using the sidebar's search field.

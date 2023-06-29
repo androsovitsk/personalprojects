@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton should match the snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-1n7gpw1-MuiSkeleton-root"
+  />
+</DocumentFragment>
+`;
+
+exports[`Skeleton should match the snapshot when no margin is applied 1`] = `
+<DocumentFragment>
+  <span
+    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-uxfc48-MuiSkeleton-root"
+  />
+</DocumentFragment>
+`;
