@@ -22,7 +22,7 @@ describe('WeatherContentDisplay', () => {
   it('should render the display name field', () => {
     renderWithProviders(<WeatherContentDisplay />)
 
-    const labelElement = screen.getByText('Selected city')
+    const labelElement = screen.getByText('Selected location')
     expect(labelElement).toBeInTheDocument()
 
     const displayNameElement = screen.getByText(testCurrentWeather.displayName)

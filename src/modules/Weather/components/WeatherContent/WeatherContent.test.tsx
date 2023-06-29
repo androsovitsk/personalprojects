@@ -59,7 +59,7 @@ describe('WeatherContent', () => {
     expect(titleElement).toBeInTheDocument()
 
     const textElement = screen.getByText(
-      'Obtaining the weather information of this city was unsuccessful. Please check whether the city name or API-key is valid.'
+      'Obtaining the weather information of this location was unsuccessful. Please check whether the location name or API-key is valid.'
     )
 
     expect(textElement).toBeInTheDocument()
@@ -90,7 +90,7 @@ describe('WeatherContent', () => {
     expect(titleElement).toBeInTheDocument()
 
     const textElement = screen.getByText(
-      'Search for a city or click on a location card to display the weather information.'
+      'Search for a location or click on a location card to display the weather information.'
     )
 
     expect(textElement).toBeInTheDocument()

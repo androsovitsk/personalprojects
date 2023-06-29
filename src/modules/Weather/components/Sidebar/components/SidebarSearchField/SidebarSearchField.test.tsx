@@ -16,7 +16,7 @@ describe('SidebarSearchField', () => {
     expect(inputLabelElement).toBeInTheDocument()
 
     expect(inputLabelElement.innerHTML).toStrictEqual(
-      'Type in the name of a city...'
+      'Type in the name of a location...'
     )
 
     const inputElement = document.querySelector('input[type="text"]')

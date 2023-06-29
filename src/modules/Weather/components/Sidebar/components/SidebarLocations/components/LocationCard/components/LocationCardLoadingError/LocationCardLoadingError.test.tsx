@@ -26,7 +26,7 @@ describe('LocationCardLoadingError', () => {
     expect(titleElement).toBeInTheDocument()
 
     const textElement = screen.getByText(
-      `Obtaining the weather information of ${testCityName} was unsuccessful. Please check whether the city name or API-key is valid.`
+      `Obtaining the weather information of ${testCityName} was unsuccessful. Please check whether the location name or API-key is valid.`
     )
 
     expect(textElement).toBeInTheDocument()
